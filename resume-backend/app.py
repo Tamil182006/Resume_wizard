@@ -25,7 +25,7 @@ app.add_middleware(
 # OpenRouter
 OPENROUTER_API_KEY = os.getenv(
     "OPENROUTER_API_KEY",
-    "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"
+    
 )
 MODEL = "qwen/qwen3-30b-a3b:free"
 
